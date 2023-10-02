@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Test suite" parallel="classes">
+    <test name = "Smoke with Extended">
+        <classes>
+            <class name="test.AdditionTest"/>
+            <class name="test.SubtractionTest"/>
+            <class name="test.MultiplicationTest"/>
+            <class name="test.DivisionTest"/>
+        </classes>
+    </test>
+</suite>
